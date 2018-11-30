@@ -1,0 +1,54 @@
+/log
+# Composer
+/vendor
+/node_modules
+/bin
+!/bin/payment
+# Eclipse
+.buildpath
+.settings
+.project
+.pydevproject
+composer.lock
+parameters.yml.local
+tests/behat-coverage
+# PHPStorm
+.idea
+
+/public/exports
+/compiled
+/secured
+/tmp
+phpinfo.php
+tests/output
+
+transfers.csv
+
+# Fabric
+fabfile.pyc
+
+
+#*
+*$
+*.BAK
+*.bak
+*.log
+*.old
+*~
+.#*
+.DS_Store
+,*
+*.swp
+*.out
+
+
+#behat
+behat.yml
+parameters_behat.yml
+
+#phinx
+phinx.yml
+
+#linter PHP-CS-FIXER
+.php_cs.cache
+.php_cs
